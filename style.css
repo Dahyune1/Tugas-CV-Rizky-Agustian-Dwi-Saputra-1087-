@@ -1,0 +1,84 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.container {
+    width: 80%;
+    max-width: 800px;
+    margin: auto;
+    background: #fff;
+    padding: 20px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+header {
+    text-align: center;
+    padding: 20px;
+    background-color: #007bff;
+    color: white;
+}
+
+h1 {
+    margin: 0;
+}
+
+h2 {
+    color: #007bff;
+}
+
+section {
+    margin: 20px 0;
+}
+
+.profile-photo {
+    width: 150px; /* Atur lebar foto */
+    height: 150px; /* Atur tinggi foto untuk menjaga proporsi */
+    border-radius: 50%; /* Membuat foto berbentuk lingkaran */
+    margin: 10px 0; /* Tambahkan margin atas dan bawah */
+    display: block; /* Menampilkan gambar sebagai block */
+    margin-left: auto; /* Mengatur margin otomatis untuk tengah */
+    margin-right: auto; /* Mengatur margin otomatis untuk tengah */
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 15px;
+}
+
+.footer {
+    text-align: center;
+    margin-top: 30px;
+    padding: 20px;
+    background-color: #2c3e50;
+    border-radius: 0 0 10px 10px;
+    color: #fff;
+}
+
+.footer p {
+    margin-bottom: 10px;
+    font-size: 1.2em;
+}
+
+.footer a {
+    color: #2980b9;
+    text-decoration: none;
+    margin: 0 10px;
+    font-size: 1.2em;
+    display: inline-block;
+}
+
+.footer a:hover {
+    color: #3498db;
+}
+
+.footer i {
+    margin-right: 8px;
+    font-size: 1.5em; /* Icon size */
+}
